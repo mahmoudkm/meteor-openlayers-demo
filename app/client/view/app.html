@@ -9,7 +9,16 @@
 </body>
 
 <template name="mapDemo">  
-  <p>Map</p>
-  <br>
-  <div id="mymap"></div>
+  
+  <p><b>Layers source</b></p>  
+	  <select id="mapSourceSelector" name="mapSourceSelector" class="mapSourceSelector">
+		  <option value="osm">Open Street Maps</option>
+		  <option value="msBing">Microsoft Bing</option>
+		  <option value="mapQuest">Map Quest</option>
+	  </select>
+  <br><br>
+
+  <div id="map" class="map"></div>
+
+  
 </template>
